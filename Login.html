@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style media="screen">
+		.btn-google {
+			color: #545454;
+			background-color: #ffffff;
+			box-shadow: 0 1px 2px 1px #ddd
+		}
+	</style>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div class="main">
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+		<div class="signup">
+			<form>
+				<label for="chk" aria-hidden="true">Sign up</label>
+				<input type="text" name="txt" placeholder="User name" required="">
+				<input type="email" name="email" placeholder="Email" required="">
+				<input type="password" name="pswd" placeholder="Password" required="">
+				<button>Sign up</button>
+
+
+
+			</form>
+		</div>
+
+		<div class="login">
+			<form>
+				<label for="chk" aria-hidden="true">Login</label>
+				<input type="email" name="email" placeholder="Email" required="">
+				<input type="password" name="pswd" placeholder="Password" required="">
+				<button>Login</button>
+
+
+				<center>
+					<a class="btn btn-outline-dark" href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin" role="button" style="text-transform:none">
+						<img width="20px" style="margin-bottom:3px; margin-right:5px" alt="Google sign-in" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" />
+
+					</a>
+				</center>
+
+			</form>
+		</div>
+	</div>
+
+</body>
+
+</html>
